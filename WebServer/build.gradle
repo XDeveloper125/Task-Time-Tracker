@@ -1,0 +1,1 @@
+build.dependsOn ":WebServer:WebLibrary:build", ":WebServer:Server:build"

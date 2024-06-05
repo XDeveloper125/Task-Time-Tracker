@@ -1,0 +1,9 @@
+{#include email/htmlEmailTemplate}
+{#htmlBody}
+<div>
+	Welcome to the timekeeper server {name}!<br><br>
+	Please click the following link to verify your email address:<br><br>
+	<a href="{validationLink}" id="validationLink">{validationLink}</a>
+</div>
+{/htmlBody}
+{/include}
